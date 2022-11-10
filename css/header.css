@@ -81,6 +81,12 @@ nav {
   display: inline;
 }
 
+.logo a:hover{
+
+  transform: scale(1.1);
+
+}
+
 @media (min-width: 1500px) {
   header {
     font-size: 1.5em;
