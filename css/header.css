@@ -11,6 +11,15 @@
   width: 100px;
 }
 
+.opcoes li:hover {
+
+  transform: scale(1.1);
+
+}
+
+
+
+
 header {
   width: 100%;
   position: fixed;
