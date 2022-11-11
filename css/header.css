@@ -27,6 +27,8 @@ header {
     font-size: 1.7em;
     box-shadow: #FCCB00 0px 1px 20px;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
 
 }
 
@@ -71,11 +73,10 @@ header a {
     gap: 40px;
     padding-right: 25px;
 
-
 }
 
 
-.container-opcoes button{
+.container-opcoes .opcoes{
 
     background-color: #FCCB00;
     border: solid black ;
@@ -89,5 +90,35 @@ header a {
 .container-opcoes button:hover{
 
     transform: scale(1.1);
+
+}
+
+
+
+
+
+#button-mobile {
+
+    display: none;
+
+}
+
+@media (max-width:1200px){
+
+
+    #button-mobile {
+
+       display: flex;
+
+    }
+
+    .opcoes {
+
+        display: none;
+
+    }
+    .active{
+        display: flex;
+    }
 
 }
